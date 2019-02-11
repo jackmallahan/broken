@@ -11,10 +11,6 @@
     "postinstall": "ng build --aot -prod"
   },
   "private": true,
-  "engines": {
-    "node": "11.6.0",
-    "npm": "6.7.0"
-  },
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/cli": "^7.3.1",
@@ -56,5 +52,9 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0"
+  },
+  "engines": {
+    "node": "11.6.0",
+    "npm": "6.7.0"
   }
 }
