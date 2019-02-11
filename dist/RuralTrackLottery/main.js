@@ -1,5 +1,20 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./apiKey.js":
+/*!*******************!*\
+  !*** ./apiKey.js ***!
+  \*******************/
+/*! exports provided: googleKey */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "googleKey", function() { return googleKey; });
+const googleKey = 'AIzaSyBPoOffTgdMM0oILmiRpf3rfzaD8h3NITQ';
+
+
+/***/ }),
+
 /***/ "./src/$$_lazy_route_resource lazy recursive":
 /*!**********************************************************!*\
   !*** ./src/$$_lazy_route_resource lazy namespace object ***!
@@ -407,13 +422,15 @@ var MessageComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+/* harmony import */ var _apiKey__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../apiKey */ "./apiKey.js");
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
+
 var environment = {
     production: false,
     firebase: {
-        apiKey: 'AIzaSyBPoOffTgdMM0oILmiRpf3rfzaD8h3NITQ',
+        apiKey: _apiKey__WEBPACK_IMPORTED_MODULE_0__["googleKey"],
         authDomain: 'ruraltracklottery.firebaseapp.com',
         databaseURL: 'https://ruraltracklottery.firebaseio.com',
         projectId: 'ruraltracklottery',

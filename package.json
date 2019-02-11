@@ -1,7 +1,7 @@
 {
   "name": "rural-track-lottery",
   "version": "0.0.0",
-  "main": "server.js",
+  "main": "dist/RuralTrackLottery/main.js",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
