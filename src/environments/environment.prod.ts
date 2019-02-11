@@ -1,7 +1,9 @@
+import { googleKey } from '../../apiKey';
+
 export const environment = {
   production: true,
   firebase: {
-    apiKey: 'AIzaSyBPoOffTgdMM0oILmiRpf3rfzaD8h3NITQ',
+    apiKey: googleKey,
     authDomain: 'ruraltracklottery.firebaseapp.com',
     databaseURL: 'https://ruraltracklottery.firebaseio.com',
     projectId: 'ruraltracklottery',
